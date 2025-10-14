@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dragon Slayer Menu</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+  :root {
+    --bg: #121212;
+    --card: #1e1e1e;
+    --accent: #facc15;
+    --primary: #2563eb;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --danger: #ef4444;
+  }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    font-family: Inter, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  .menu-card {
+    width: 380px;
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .icon-top {
+    font-size: 40px;
+    color: var(--accent);
+    margin-bottom: -8px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+    text-align: center;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .info span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .info i { color: var(--primary); }
+
+  .actions, .controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .btn {
+    flex: 1;
+    min-width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--primary);
+    color: #fff;
+  }
+  .btn-primary:hover { background: #1d4ed8; }
+
+  .btn-secondary {
+    background: #2d2d2d;
+    color: var(--muted);
+  }
+  .btn-secondary:hover { background: #3d3d3d; }
+
+  .btn-danger {
+    background: var(--danger);
+    color: #fff;
+  }
+  .btn-danger:hover { background: #dc2626; }
+
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+</style>
+</head>
+<body>
+  <div class="menu-card">
+    <!-- Weapon / game icon -->
+    <div class="icon-top"><i class="fa-solid fa-shield-halved"></i></div>
+
+    <div class="title">🐉 Dragon Slayer Menu</div>
+
+    <div class="info">
+      <span><i class="fa-solid fa-user"></i> Player: <strong>Aragon</strong></span>
+      <span><i class="fa-solid fa-heart"></i> Health: 85%</span>
+      <span><i class="fa-solid fa-location-dot"></i> Location: Shadow Hills</span>
+    </div>
+
+    <hr>
+
+    <div class="actions">
+      <button class="btn btn-secondary"><i class="fa-solid fa-plus"></i> Add</button>
+      <button class="btn btn-secondary"><i class="fa-solid fa-shop"></i> Shop</button>
+      <button class="btn btn-secondary"><i class="fa-solid fa-check"></i> Confirm</button>
+      <button class="btn btn-secondary"><i class="fa-solid fa-gamepad"></i> Inventory</button>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary"><i class="fa-regular fa-floppy-disk"></i> Save</button>
+      <button class="btn btn-secondary"><i class="fa-solid fa-folder-open"></i> Load</button>
+      <button class="btn btn-danger"><i class="fa-solid fa-sign-out-alt"></i> Exit</button>
+    </div>
+  </div>
+</body>
+</html>
