@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Create Your TechNova Account</title>
+<style>
+  /* ---------- base / page ---------- */
+  :root{
+    --page-bg: #0c1116;
+    --panel-bg: #111521;
+    --panel-inner: #161a20;
+    --muted: #8b949e;
+    --input-bg: #0b1116;
+    --stroke: #2f3940;
+    --accent: #1fb6ff; /* bright blue */
+    --accent-2: #00aaff;
+    --white: #e6edf3;
+    --helper: #98a0a6;
+    --dashed: rgba(255,255,255,0.06);
+    --btn-dark: #22272d;
+    --btn-create-grad: linear-gradient(180deg,#3ec8ff,#00aaff);
+    --shadow: 0 6px 18px rgba(2,6,12,0.6);
+  }
+
+  html,body{height:100%}
+  body{
+    margin:0;
+    min-height:100%;
+    background:var(--page-bg);
+    font-family: "Segoe UI", "Inter", system-ui, Arial, sans-serif;
+    color:var(--white);
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding:36px 20px;
+  }
+
+  /* ---------- centered card ---------- */
+  .card{
+    width:760px;                 /* matches screenshot scale */
+    background: linear-gradient(180deg,var(--panel-bg),#0f1317 120%);
+    border-radius:10px;
+    padding:28px 30px 34px;
+    box-shadow: var(--shadow);
+    position:relative;
+    box-sizing:border-box;
+    border:1px solid rgba(255,255,255,0.02);
+  }
+
+  /* small ribbon top-right */
+  .ribbon{
+    position:absolute;
+    top:8px;
+    right:12px;
+    background:#ffb800;
+    color:#111;
+    font-weight:700;
+    font-size:12px;
+    padding:6px 10px;
+    border-radius:4px;
+    transform: rotate(8deg);
+    box-shadow:0 2px 6px rgba(0,0,0,0.4);
+  }
+
+  /* ---------- header block (title + intro box) ---------- */
+  .title{
+    font-size:26px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .title .brand{ font-style:italic; color:var(--accent-2); }
+
+  .intro{
+    margin-top:12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
+    border-radius:6px;
+    padding:18px;
+    border:1px solid rgba(255,255,255,0.02);
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.35;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.01);
+  }
+
+  .intro small{ display:block; margin-top:10px; color:var(--helper); font-size:12px; }
+
+  /* ---------- form grid ---------- */
+  form{ margin-top:18px; }
+  .grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:18px 22px;
+  }
+
+  label{
+    display:block;
+    color: #dce7ee;
+    font-size:13px;
+    margin-bottom:6px;
+  }
+
+  .field{
+    margin-bottom:14px;
+  }
+
+  /* input / select styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea{
+    width:100%;
+    box-sizing:border-box;
+    background:var(--input-bg);
+    color:var(--white);
+    border-radius:8px;
+    border:1px solid var(--stroke);
+    padding:10px 12px;
+    font-size:13px;
+    outline:none;
+    transition: border-color .12s, box-shadow .12s;
+  }
+
+  input::placeholder, textarea::placeholder { color: rgba(230,237,243,0.35); font-size:13px; }
+
+  input:focus, select:focus, textarea:focus{
+    border-color:var(--accent-2);
+    box-shadow:0 0 0 4px rgba(0,170,255,0.06);
+  }
+
+  /* helper small lines under inputs */
+  .helper{
+    color:var(--muted);
+    font-size:12px;
+    margin-top:6px;
+  }
+
+  /* ---------- full width single column rows ---------- */
+  .full { grid-column: 1 / -1; }
+
+  /* ---------- dashed fieldsets (gender & skills) ---------- */
+  .fset{
+    grid-column:1 / -1;
+    border:1px dashed rgba(255,255,255,0.04);
+    border-radius:8px;
+    padding:12px 14px;
+    margin-bottom:14px;
+    position:relative;
+    background: linear-gradient(180deg, rgba(255,255,255,0.003), transparent);
+  }
+
+  .fset .legend{
+    position:absolute;
+    top:-10px;
+    left:14px;
+    background:var(--panel-bg);
+    padding:0 8px;
+    font-size:13px;
+    color:var(--white);
+  }
+
+  .options{ display:flex; gap:20px; align-items:center; padding-top:6px; flex-wrap:wrap; }
+
+  /* radio / checkbox basics */
+  input[type="radio"], input[type="checkbox"]{
+    width:14px;
+    height:14px;
+    margin-right:8px;
+    accent-color: transparent; /* we style visually */
+    cursor:pointer;
+  }
+
+  /* create custom look: hide native accent and use pseudo */
+  /* We'll keep native but visually tweak via box-shadow to match screenshot */
+  input[type="radio"]{
+    border-radius:50%;
+    border:2px solid rgba(255,255,255,0.18);
+    background:#fff;
+    width:12px;
+    height:12px;
+    appearance: none;
+    position:relative;
+    display:inline-block;
+  }
+
+  input[type="radio"]:checked{
+    background: radial-gradient(circle at center, var(--accent-2) 0 55%, transparent 56%);
+    border-color: rgba(0,170,255,0.9);
+  }
+
+  input[type="checkbox"]{
+    appearance: none;
+    width:14px;
+    height:14px;
+    border-radius:3px;
+    border:2px solid rgba(255,255,255,0.15);
+    background: transparent;
+    position:relative;
+  }
+
+  input[type="checkbox"]:checked{
+    background: var(--accent-2);
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.12);
+  }
+
+  /* labels next to controls */
+  .options label{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:13px;
+    color:#dce7ee;
+    cursor:pointer;
+    user-select:none;
+  }
+
+  /* textarea styling */
+  textarea{ min-height:88px; resize:none; border-radius:8px; padding:12px; }
+
+  /* ---------- buttons area (right aligned create) ---------- */
+  .footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    margin-top:10px;
+  }
+
+  .left-note{ color:var(--muted); font-size:13px; }
+
+  .actions{
+    display:flex;
+    gap:12px;
+    align-items:center;
+  }
+
+  .btn{
+    border-radius:8px;
+    padding:10px 18px;
+    font-size:14px;
+    font-weight:600;
+    border:1px solid rgba(255,255,255,0.04);
+    cursor:pointer;
+  }
+
+  .btn.reset{
+    background:var(--btn-dark);
+    color:#d5dbe0;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.02);
+  }
+  .btn.reset:hover{ background:#2a3137; }
+
+  .btn.create{
+    background: var(--btn-create-grad);
+    color:#022433;
+    padding:10px 20px;
+    border:1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 6px 18px rgba(0,170,255,0.12);
+    color:#fff;
+  }
+  .btn.create:hover{ filter:brightness(.95) }
+
+  /* small dot separators and layout match */
+  .two-line{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+  }
+
+  /* small subtle divider lines for inputs to the right (like screenshot) */
+  .muted-small{ color:var(--muted); font-size:12px }
+
+  /* responsive shrink */
+  @media (max-width:800px){
+    .card{ width:100%; padding:20px; }
+    .grid{ grid-template-columns: 1fr; }
+    .two-line{ flex-direction:column; gap:8px; }
+    .title{ font-size:20px; }
+  }
+
+</style>
+</head>
+<body>
+  <div class="card" role="region" aria-label="Create account panel">
+    <div class="ribbon">LAB EXAM</div>
+
+    <div class="title">Create Your <span class="brand">TechNova</span> Account</div>
+
+    <div class="intro">
+      Welcome! Please complete the form below. Fields marked with <strong>*</strong>
+      <small style="display:block; margin-top:8px; color:var(--helper)">Tip: Press Ctrl+ / Ctrl- to zoom in/out.</small>
+    </div>
+
+    <form novalidate>
+      <div class="grid" style="margin-top:18px;">
+        <!-- Row 1: Full name (left) + Email (right) -->
+        <div class="field">
+          <label for="fullname">Full Name <span style="color:var(--accent-2)">*</span></label>
+          <input id="fullname" name="fullname" type="text" placeholder="e.g., Ayesha Khan" />
+          <div class="helper muted-small">Use your legal name.</div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email Address <span style="color:var(--accent-2)">*</span></label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" />
+          <div class="helper muted-small">We'll send a verification link.</div>
+        </div>
+
+        <!-- Row 2: Password (left) + Country (right) -->
+        <div class="field">
+          <label for="password">Password <span style="color:var(--accent-2)">*</span></label>
+          <input id="password" name="password" type="password" placeholder="At least 8 chars, include a number" />
+          <div class="helper muted-small">Must be 8+ characters and include a number.</div>
+        </div>
+
+        <div class="field">
+          <label for="country">Country <span style="color:var(--accent-2)">*</span></label>
+          <select id="country" name="country" aria-label="country">
+            <option value="">Select your country</option>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+          </select>
+        </div>
+
+        <!-- Gender fieldset (full width) -->
+        <div class="fset">
+          <div class="legend">Gender</div>
+          <div style="height:6px"></div>
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:18px;">
+            <div class="options" style="flex:1;">
+              <label><input type="radio" name="gender" value="male">Male</label>
+              <label><input type="radio" name="gender" value="female">Female</label>
+              <label><input type="radio" name="gender" value="other">Other</label>
+              <label><input type="radio" name="gender" value="prefer">Prefer not to say</label>
+            </div>
+            <div style="width:180px; color:var(--muted); font-size:13px;">&nbsp;</div>
+          </div>
+        </div>
+
+        <!-- Skills fieldset -->
+        <div class="fset">
+          <div class="legend">Skills <span style="font-size:12px; color:var(--muted)"> (select all that apply)</span></div>
+          <div style="height:6px"></div>
+          <div class="options">
+            <label><input type="checkbox" name="skills" value="html">HTML</label>
+            <label><input type="checkbox" name="skills" value="css">CSS</label>
+            <label><input type="checkbox" name="skills" value="js">JavaScript</label>
+            <label><input type="checkbox" name="skills" value="git">Git</label>
+          </div>
+        </div>
+
+        <!-- About you (full width) -->
+        <div class="field full">
+          <label for="about">About You</label>
+          <textarea id="about" name="about" placeholder="Write a short bio..."></textarea>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="left-note muted-small">&nbsp;</div>
+        <div class="actions">
+          <button type="reset" class="btn reset">Reset</button>
+          <button type="submit" class="btn create">Create Account</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
