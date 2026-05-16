@@ -1,0 +1,14 @@
+D:\Hp\Desktop\projects\vp-project\LibraryClient\bin\Debug\net8.0-windows\LibraryClient.exe
+D:\Hp\Desktop\projects\vp-project\LibraryClient\bin\Debug\net8.0-windows\LibraryClient.deps.json
+D:\Hp\Desktop\projects\vp-project\LibraryClient\bin\Debug\net8.0-windows\LibraryClient.runtimeconfig.json
+D:\Hp\Desktop\projects\vp-project\LibraryClient\bin\Debug\net8.0-windows\LibraryClient.dll
+D:\Hp\Desktop\projects\vp-project\LibraryClient\bin\Debug\net8.0-windows\LibraryClient.pdb
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.AssemblyInfoInputs.cache
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.AssemblyInfo.cs
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.csproj.CoreCompileInputs.cache
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.dll
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\refint\LibraryClient.dll
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.pdb
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.genruntimeconfig.cache
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\ref\LibraryClient.dll
