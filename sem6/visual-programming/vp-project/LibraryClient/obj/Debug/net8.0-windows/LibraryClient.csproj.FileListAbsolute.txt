@@ -12,3 +12,11 @@ D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\refint\
 D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.pdb
 D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.genruntimeconfig.cache
 D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\ref\LibraryClient.dll
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.BooksForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.MembersForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.csproj.GenerateResource.cache
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.MainForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.AddEditBookForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.AddEditMemberForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.IssueReturnForm.resources
+D:\Hp\Desktop\projects\vp-project\LibraryClient\obj\Debug\net8.0-windows\LibraryClient.ReportsForm.resources

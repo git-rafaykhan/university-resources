@@ -26,14 +26,14 @@ namespace LibraryAPI.Data
 
             var books = new Book[]
             {
-                new Book { Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", ISBN = "9780743273565", TotalStock = 5, AvailableStock = 5, CategoryId = categories[0].Id },
-                new Book { Title = "To Kill a Mockingbird", Author = "Harper Lee", ISBN = "9780060935467", TotalStock = 3, AvailableStock = 3, CategoryId = categories[0].Id },
-                new Book { Title = "A Brief History of Time", Author = "Stephen Hawking", ISBN = "9780553380163", TotalStock = 4, AvailableStock = 4, CategoryId = categories[1].Id },
-                new Book { Title = "The Selfish Gene", Author = "Richard Dawkins", ISBN = "9780192860927", TotalStock = 3, AvailableStock = 3, CategoryId = categories[1].Id },
-                new Book { Title = "Sapiens: A Brief History of Humankind", Author = "Yuval Noah Harari", ISBN = "9780062316097", TotalStock = 6, AvailableStock = 6, CategoryId = categories[2].Id },
-                new Book { Title = "Guns, Germs, and Steel", Author = "Jared Diamond", ISBN = "9780393317558", TotalStock = 5, AvailableStock = 5, CategoryId = categories[2].Id },
-                new Book { Title = "Clean Code", Author = "Robert C. Martin", ISBN = "9780132350884", TotalStock = 10, AvailableStock = 10, CategoryId = categories[3].Id },
-                new Book { Title = "Design Patterns", Author = "Erich Gamma", ISBN = "9780201633610", TotalStock = 7, AvailableStock = 7, CategoryId = categories[3].Id }
+                new Book { Title = "The Great Gatsby",                   Author = "F. Scott Fitzgerald", TotalStock = 5,  AvailableStock = 5,  CategoryId = categories[0].Id },
+                new Book { Title = "To Kill a Mockingbird",               Author = "Harper Lee",          TotalStock = 3,  AvailableStock = 3,  CategoryId = categories[0].Id },
+                new Book { Title = "A Brief History of Time",             Author = "Stephen Hawking",     TotalStock = 4,  AvailableStock = 4,  CategoryId = categories[1].Id },
+                new Book { Title = "The Selfish Gene",                    Author = "Richard Dawkins",     TotalStock = 3,  AvailableStock = 3,  CategoryId = categories[1].Id },
+                new Book { Title = "Sapiens: A Brief History of Humankind", Author = "Yuval Noah Harari", TotalStock = 6, AvailableStock = 6,  CategoryId = categories[2].Id },
+                new Book { Title = "Guns, Germs, and Steel",              Author = "Jared Diamond",       TotalStock = 5,  AvailableStock = 5,  CategoryId = categories[2].Id },
+                new Book { Title = "Clean Code",                          Author = "Robert C. Martin",    TotalStock = 10, AvailableStock = 10, CategoryId = categories[3].Id },
+                new Book { Title = "Design Patterns",                     Author = "Erich Gamma",         TotalStock = 7,  AvailableStock = 7,  CategoryId = categories[3].Id }
             };
 
             context.Books.AddRange(books);

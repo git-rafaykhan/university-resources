@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LibraryAPI",
+    "\\LibraryAPI\\Controllers",
+    "\\LibraryAPI\\Data",
+    "\\LibraryAPI\\Migrations",
+    "\\LibraryAPI\\Models",
+    "\\LibraryAPI\\obj",
+    "\\LibraryAPI\\Properties",
+    "\\LibraryClient"
+  ],
+  "SelectedNode": "\\LibraryAPI\\LibraryAPI.csproj",
+  "PreviewInSolutionExplorer": false
+}

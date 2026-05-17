@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -7,5 +7,84 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MainForm -->
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- BooksForm -->
+    <Compile Update="BooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BooksForm.Designer.cs">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="BooksForm.resx">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- AddEditBookForm -->
+    <Compile Update="AddEditBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddEditBookForm.Designer.cs">
+      <DependentUpon>AddEditBookForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="AddEditBookForm.resx">
+      <DependentUpon>AddEditBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- MembersForm -->
+    <Compile Update="MembersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MembersForm.Designer.cs">
+      <DependentUpon>MembersForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="MembersForm.resx">
+      <DependentUpon>MembersForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- AddEditMemberForm -->
+    <Compile Update="AddEditMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddEditMemberForm.Designer.cs">
+      <DependentUpon>AddEditMemberForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="AddEditMemberForm.resx">
+      <DependentUpon>AddEditMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- IssueReturnForm -->
+    <Compile Update="IssueReturnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IssueReturnForm.Designer.cs">
+      <DependentUpon>IssueReturnForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="IssueReturnForm.resx">
+      <DependentUpon>IssueReturnForm.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <!-- ReportsForm -->
+    <Compile Update="ReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportsForm.Designer.cs">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="ReportsForm.resx">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>

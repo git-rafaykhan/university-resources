@@ -1,0 +1,436 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hp\\Desktop\\projects\\vp-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryapi\\libraryapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\libraryapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB983FB7-7592-4711-B15F-73C0DEC2A7BD}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\issuereturnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\issuereturnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\issuereturnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\issuereturnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\addeditmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\addeditmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditmemberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\addeditbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\addeditbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|D:\\Hp\\Desktop\\projects\\vp-project\\libraryclient\\membersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\membersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\addeditmemberform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditmemberform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\addeditmemberform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditmemberform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\membersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\membersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\membersform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\membersform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\addeditbookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\addeditbookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|d:\\hp\\desktop\\projects\\vp-project\\libraryclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE16FF3-A605-498A-97A5-F1E6C6DEBE64}|LibraryClient\\LibraryClient.csproj|solutionrelative:libraryclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Program.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Program.cs",
+              "RelativeToolTip": "LibraryAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:58:33.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryAPI.http",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\LibraryAPI.http",
+              "RelativeDocumentMoniker": "LibraryAPI\\LibraryAPI.http",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\LibraryAPI.http",
+              "RelativeToolTip": "LibraryAPI\\LibraryAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-17T18:52:33.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Models\\Book.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryAPI\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:49:04.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\BooksForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs",
+              "RelativeToolTip": "LibraryClient\\BooksForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:05:44.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IssueReturnForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\IssueReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\IssueReturnForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\IssueReturnForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\IssueReturnForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:06:32.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAuwG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:26:39.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\BooksForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\BooksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:06:36.991Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IssueReturnForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\IssueReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\IssueReturnForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\IssueReturnForm.cs",
+              "RelativeToolTip": "LibraryClient\\IssueReturnForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:56:20.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddEditMemberForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditMemberForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditMemberForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:41:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddEditMemberForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditMemberForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\AddEditMemberForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:07:02.869Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddEditBookForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditBookForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditBookForm.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:11:28.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\Models\\Models.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Models\\Models.cs",
+              "RelativeToolTip": "LibraryClient\\Models\\Models.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:57:54.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\Services\\ApiService.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Services\\ApiService.cs",
+              "RelativeToolTip": "LibraryClient\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:58:09.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddEditBookForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditBookForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\AddEditBookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:07:00.652Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportsForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\ReportsForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\ReportsForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\ReportsForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\ReportsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:06:56.121Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MembersForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\MembersForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\MembersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:06:03.452Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddEditMemberForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditMemberForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditMemberForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:13:25.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditMemberForm.resx",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.resx",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditMemberForm.resx",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditMemberForm.resx",
+              "RelativeToolTip": "LibraryClient\\AddEditMemberForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-17T17:40:49.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\MainForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.cs [Design]",
+              "RelativeToolTip": "LibraryClient\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:55:10.851Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MembersForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\MembersForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\MembersForm.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:32:24.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MembersForm.resx",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.resx",
+              "RelativeDocumentMoniker": "LibraryClient\\MembersForm.resx",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MembersForm.resx",
+              "RelativeToolTip": "LibraryClient\\MembersForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-17T16:56:08.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\MainForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:13:47.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.resx",
+              "RelativeDocumentMoniker": "LibraryClient\\MainForm.resx",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\MainForm.resx",
+              "RelativeToolTip": "LibraryClient\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-17T17:13:44.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddEditBookForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditBookForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditBookForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:11:21.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\Program.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\Program.cs",
+              "RelativeToolTip": "LibraryClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:57:33.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

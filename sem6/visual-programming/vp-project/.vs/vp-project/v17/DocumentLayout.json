@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hp\\Desktop\\projects\\vp-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\LibraryAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryAPI\\LibraryAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\LibraryContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryAPI\\Data\\LibraryContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\DatabaseSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryAPI\\Data\\DatabaseSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryAPI\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryClient\\AddEditBookForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryClient\\BooksForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryClient\\BooksForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryClient\\AddEditBookForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryAPI.csproj",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\LibraryAPI.csproj",
+              "RelativeDocumentMoniker": "LibraryAPI\\LibraryAPI.csproj",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\LibraryAPI.csproj",
+              "RelativeToolTip": "LibraryAPI\\LibraryAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-17T18:58:48.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "LibraryAPI\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:57:58.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Data\\LibraryContext.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "LibraryAPI\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:57:55.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:57:12.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\BooksForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\BooksForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:10:55.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEditBookForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditBookForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditBookForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:10:39.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEditBookForm.Designer.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\AddEditBookForm.Designer.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\AddEditBookForm.Designer.cs",
+              "RelativeToolTip": "LibraryClient\\AddEditBookForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:10:36.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksForm.cs",
+              "DocumentMoniker": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs",
+              "RelativeDocumentMoniker": "LibraryClient\\BooksForm.cs",
+              "ToolTip": "D:\\Hp\\Desktop\\projects\\vp-project\\LibraryClient\\BooksForm.cs",
+              "RelativeToolTip": "LibraryClient\\BooksForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:04:21.605Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

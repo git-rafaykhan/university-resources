@@ -78,10 +78,9 @@ namespace LibraryAPI.Controllers
                 return NotFound();
             }
 
-            // update Title, Author, ISBN, TotalStock
+            // update Title, Author, TotalStock
             existingBook.Title = book.Title;
             existingBook.Author = book.Author;
-            existingBook.ISBN = book.ISBN;
             
             // Adjust available stock based on total stock change
             var stockDiff = book.TotalStock - existingBook.TotalStock;
